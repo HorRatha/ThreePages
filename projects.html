@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Projects</title>
+    <meta name="description" content="Explore my web development projects and case studies.">
+    
+    <!-- Open Graph metadata for SEO -->
+    <meta property="og:title" content="Projects - My Portfolio">
+    <meta property="og:description" content="Explore my web development projects and case studies.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://myportfolio.com/projects">
+    <<meta property="og:image" content="https://cdn-icons-png.flaticon.com/512/4973/4973667.png">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/4973/4973667.png" type="image/x-icon">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="projects-hero" style="background-image: url('https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');">
+            <div class="container ">
+                <h2 class="rainbow-gradient">My Projects</h2>
+                <p>Here's a collection of my recent work. Each project showcases different skills and approaches to web development.</p>
+            </div>
+        </section>
+
+        <section class="project-filters">
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="web">Web Design</button>
+                    <button class="filter-btn" data-filter="app">Applications</button>
+                    <button class="filter-btn" data-filter="ui">UI/UX</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects-grid">
+            <div class="container">
+                <article class="project-card" data-category="web ui">
+                    <div class="project-image">
+                        <img src="https://repository-images.githubusercontent.com/456963513/82528385-a73f-488f-9003-513321283a6b" alt="E-commerce Website">
+                    </div>
+                    <div class="project-details">
+                        <h3>E-commerce Website</h3>
+                        <p class="project-tags">Web Design, UI/UX, Front-end Development</p>
+                        <p>A fully responsive e-commerce website with product filtering, shopping cart, and checkout functionality. Built with HTML, CSS, and JavaScript.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">View Live</a>
+                            <a href="#" class="btn btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="https://appmaster.io/cdn-cgi/image/width=1024,quality=83,format=auto/api/_files/dMc4Y3R5EtjHx2RausQpSJ/download/" alt="Portfolio Redesign">
+                    </div>
+                    <div class="project-details">
+                        <h3>Portfolio Redesign</h3>
+                        <p class="project-tags">Web Design, Front-end Development</p>
+                        <p>A modern portfolio website with semantic HTML and CSS Grid layout. Features responsive design and smooth animations.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">View Live</a>
+                            <a href="#" class="btn btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="app">
+                    <<div class="project-image">
+                        <img src="https://www.ryrob.com/wp-content/uploads/2020/10/Screen-Shot-2020-10-15-at-8.44.57-AM.png" alt="Blog Platform">
+                    </div>
+                    <div class="project-details">
+                        <h3>Blog Platform</h3>
+                        <p class="project-tags">Web Application, Back-end Development</p>
+                        <p>Custom blog platform with category filtering, user authentication, and a responsive layout. Includes an admin dashboard for content management.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">View Live</a>
+                            <a href="#" class="btn btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="ui">
+                    <div class="project-image">
+                        <img src="https://images.ctfassets.net/fevtq3bap7tj/3CIJCKqKacWa0yWmAiosEQ/87d4c3dbb59baf7fe6c356a506f1a424/Weather_dashboard_2x.png" alt="Weather Dashboard">
+                    </div>
+                    <div class="project-details">
+                        <h3>Weather Dashboard</h3>
+                        <p class="project-tags">UI/UX, API Integration</p>
+                        <p>A weather dashboard that displays current conditions and forecasts based on location. Integrates with a weather API and features clean data visualization.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">View Live</a>
+                            <a href="#" class="btn btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="app web">
+                    <div class="project-image">
+                        <img src="https://cdn.prod.website-files.com/60c0cec90f57824353f55893/629897cfc77f0da4e04396c7_Task%20Management%20Blog%20(1).png" alt="Task Management App">
+                    </div>
+                    <div class="project-details">
+                        <h3>Task Management App</h3>
+                        <p class="project-tags">Web Application, JavaScript</p>
+                        <p>A productivity app for managing tasks and projects. Features drag-and-drop functionality, priority setting, and deadline tracking.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">View Live</a>
+                            <a href="#" class="btn btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="ui web">
+                    <div class="project-image">
+                        <img src="https://www.webalive.com.au/wp-content/uploads/2018/08/amazing-restaurant-websites.png" alt="Restaurant Website">
+                    </div>
+                    <div class="project-details">
+                        <h3>Restaurant Website</h3>
+                        <p class="project-tags">Web Design, UI/UX</p>
+                        <p>A responsive website for a local restaurant featuring an online menu, reservation system, and contact information. Optimized for mobile viewing.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">View Live</a>
+                            <a href="#" class="btn btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <h2>Interested in working together?</h2>
+                <p>I'm always open to discussing new projects and opportunities.</p>
+                <a href="about.html#contact" class="btn">Get In Touch</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+            <div class="social">
+                <a href="#" aria-label="GitHub profile">GitHub</a>
+                <a href="#" aria-label="LinkedIn profile">LinkedIn</a>
+                <a href="#" aria-label="Twitter profile">Twitter</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
